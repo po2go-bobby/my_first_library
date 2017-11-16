@@ -13,7 +13,12 @@ class ComposerStaticInit285d162248870f3a3d60ce1f764c7ce2
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
+            'po2go-bobby\\my_first_library\\' => 29,
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'c' => 
+        array (
+            'conquerorsoft\\my_first_library\\' => 31,
         ),
         'W' => 
         array (
@@ -31,11 +36,19 @@ class ComposerStaticInit285d162248870f3a3d60ce1f764c7ce2
     );
 
     public static $prefixDirsPsr4 = array (
+        'po2go-bobby\\my_first_library\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'conquerorsoft\\my_first_library\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
